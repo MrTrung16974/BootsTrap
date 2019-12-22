@@ -1,0 +1,58 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+main.content {
+	background-color: #282828;
+}
+main.content div.container {
+ 	padding-top: 100px;
+ 	background-color: #111111 !important;
+}
+main.content div.container div.row div.col-xl-3 a div.card div.card-body p.card-text {
+	font-size: 13px;
+	overflow: hidden;
+}
+main.content div.container div.row nav.pl-5 ul.pagination li.page-item a.apage-link.mr-2 {
+	border-radius: 5px; 
+	background: #111111; 
+	border: 1px solid #000000;
+}
+footer.footer {
+	background-color: #282828;	
+}
+footer.footer div.container  {
+	padding: 30px 0;
+	background-color: #111111 !important;
+	border-bottom: 1px solid #222222;
+	border-top: 1px solid #222222;
+	position: relative;
+}
+footer.footer div.container div.row div.col-xl-8 div.row div.col-xl-4 ul li {
+	list-style-type: none;
+	font-size: 13px;
+	padding-bottom: 10px;
+}
+footer.footer div.container div.row div.col-xl-8 div.row div.col-xl-4 ul li a{
+	color: red;
+}
+div.top {
+    position: fixed;
+    bottom: 10px;
+    right: 30px;
+    background: #222222;
+    color: wheat;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+/* index-1  */
+
+main.content div.container div.video video {
+	width: 100%;
+}
